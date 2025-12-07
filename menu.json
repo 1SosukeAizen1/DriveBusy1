@@ -52,23 +52,6 @@
                 "desc": "Fries topped with chopped chicken, cheese sauce, and white sauce",
                 "price": "$8.99"
             }
-        ],
-        "Sides": [
-            {
-                "name": "French Fries",
-                "desc": "Crispy seasoned fries",
-                "price": "$3.49"
-            },
-            {
-                "name": "Onion Rings",
-                "desc": "Crispy battered onion rings",
-                "price": "$4.99"
-            },
-            {
-                "name": "Cheese Curds",
-                "desc": "Crispy fried cheese curds",
-                "price": "$7.99"
-            }
         ]
     },
     
@@ -126,6 +109,23 @@
                 "name": "Combo Bowl",
                 "desc": "Both gyro meat and chicken over rice and lettuce topped with your choice of sauce: white - spicy - tzatziki",
                 "price": "$9.49"
+            }
+        ],
+        "Sides": [
+            {
+                "name": "French Fries",
+                "desc": "Crispy seasoned fries",
+                "price": "$3.49"
+            },
+            {
+                "name": "Onion Rings",
+                "desc": "Crispy battered onion rings",
+                "price": "$4.99"
+            },
+            {
+                "name": "Cheese Curds",
+                "desc": "Crispy fried cheese curds",
+                "price": "$7.99"
             }
         ]
         
