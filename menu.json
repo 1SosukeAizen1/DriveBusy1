@@ -43,68 +43,38 @@
         },
         "Loaded Fries": [
             {
-                "name": "Buffalo Chicken ",
-                "desc": "",
+                "name": "Gyro Cheese Fries",
+                "desc": "Fries topped with gyro meat, tomatoes, onions, cheese sauce, and tzatziki sauce",
                 "price": "$8.99"
             },
             {
-                "name": "Gyro cheese",
-                "desc": "",
+                "name": "Buffalo Chicken Fries",
+                "desc": "Fries topped with chopped chicken, cheese sauce, and white sauce",
                 "price": "$8.99"
             }
         ],
-        "Deluxe Crispy Chicken": [
+        "Sides": [
             {
-                "name": "",
-                "desc": "Golden fried chicken with lettuce, tomato, and busy sauce",
-                "price": "$6.99"
-            }
-        ],
-        "Gyros": [
-            {
-                "name": "Gyro Sandwich",
-                "desc": "",
-                "price": "$7.49"
+                "name": "French Fries",
+                "desc": "Crispy seasoned fries",
+                "price": "$3.49"
             },
             {
-                "name": "Spicy Gyro",
-                "desc": "",
+                "name": "Onion Rings",
+                "desc": "Crispy battered onion rings",
+                "price": "$4.99"
+            },
+            {
+                "name": "Cheese Curds",
+                "desc": "Crispy fried cheese curds",
                 "price": "$7.99"
-            },
-            {
-                "name": "Chicken Gyro",
-                "desc": "",
-                "price": "$7.49"
             }
         ]
     },
     
     "drive1/2": {
-        "Burgers": [
-           
-            {
-                "name": "Busy Burger",
-                "desc": "Cheese, Grilled onions and Busy Sauce",
-                "price": "$6.49"
-            },
-            {
-                "name": "Gyro Burger",
-                "desc": "Cheese, Gyro meat with lettuce, tomato, onions and tzatziki sauce",
-                "price": "$7.99"
-            },
-            {
-                "name": "Cheeseburger",
-                "desc": "",
-                "price": "$6.49"
-            },
-            {
-                "name": "Hamburger",
-                "desc": "",
-                "price": "$5.99"
-            }
-        ],
         
-        "seasoned wings": [
+        "Wings": [
             {
                 "name": "2 Pc Wings",
                 "desc": "",
@@ -124,6 +94,16 @@
                 "name": "16 Pc Wings",
                 "desc": "",
                 "price": "$14.49"
+            },
+            {
+                "name": "24 Pc Wings",
+                "desc": "",
+                "price": "$20.99"
+            },
+            {
+                "name": "48 Pc Wings",
+                "desc": "",
+                "price": "$39.99"
             }
         ],
         
@@ -134,54 +114,20 @@
             
             {
                 "name": "Gyro Bowl",
-                "desc": "",
+                "desc": "Rice, lettuce and gyro meat topped with your choice of sauce: white - spicy - tzatziki",
                 "price": "$8.99"
             },
             {
                 "name": "Chicken Bowl",
-                "desc": "",
+                "desc": "Rice, lettuce and chicken topped with your choice of sauce: white - spicy - tzatziki",
                 "price": "$8.99"
             },
             {
                 "name": "Combo Bowl",
-                "desc": "",
+                "desc": "Both gyro meat and chicken over rice and lettuce topped with your choice of sauce: white - spicy - tzatziki",
                 "price": "$9.49"
             }
-        ],
-        
-        "Shakes": [
-            
-              
-            {
-                "name": "oreo shake",
-                "desc": "",
-                "price": ""
-            },
-            {
-                "name": "vanilla shake",
-                "desc": "",
-                "price": ""
-            },
-            {
-                "name": "chocolate shake",
-                "desc": "",
-                "price": ""
-            },
-            {
-                "name": "strawberry shake",
-                "desc": "",
-                "price": ""
-            },
-            {  "name": "",
-                "desc": "",
-                "price": "$4.99"
-            }
-        ],
-        "Pepsi Products": {
-            "type": "banner",
-            "text": "Pepsi Sodas",
-            "price": ""
-        }
+        ]
         
     }
 }

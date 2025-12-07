@@ -92,25 +92,30 @@ function loadMenu(screenType, containerId) {
                             var itemElement = document.createElement("div");
                             itemElement.className = "menu-item";
 
-                            // Check if item.desc exists and is not empty
-                            if (item.desc && item.desc.trim() !== "") {
+                            var hasName = item.name && item.name.trim() !== "";
+                            var hasDesc = item.desc && item.desc.trim() !== "";
+                            var hasPrice = item.price && item.price.trim() !== "";
+                            
+                            // If only name OR only price exists (not both), center it
+                            if ((hasName && !hasPrice) || (hasPrice && !hasName)) {
+                                itemElement.classList.add('centered-only');
+                                if (hasName) {
+                                    itemElement.innerHTML = '<div class="item-name">' + item.name + '</div>';
+                                } else {
+                                    itemElement.innerHTML = '<div class="item-price">' + item.price + '</div>';
+                                }
+                            } else if (hasDesc) {
+                                // Has description: show all three elements vertically
                                 itemElement.innerHTML =
                                     '<div class="item-name">' + item.name + '</div>' +
                                     '<div class="item-desc">' + item.desc + '</div>' +
                                     '<div class="item-price">' + item.price + '</div>';
                             } else {
-                                // If price contains any letter (text), keep new line
-                                if (/[a-zA-Z]/.test(item.price)) {
-                                    itemElement.innerHTML =
-                                        '<div class="item-name">' + item.name + '</div>' +
-                                        '<div class="item-price">' + item.price + '</div>';
-                                } else {
-                                    // No description and price is just a number: put name and price in a flex row
-                                    itemElement.classList.add('inline');
-                                    itemElement.innerHTML =
-                                        '<span class="item-name">' + item.name + '</span>' +
-                                        '<span class="item-price">' + item.price + '</span>';
-                                }
+                                // No description: put name and price inline
+                                itemElement.classList.add('inline');
+                                itemElement.innerHTML =
+                                    '<span class="item-name">' + item.name + '</span>' +
+                                    '<span class="item-price">' + item.price + '</span>';
                             }
                             itemsGrid.appendChild(itemElement);
                         }

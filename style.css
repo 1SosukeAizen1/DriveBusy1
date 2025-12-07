@@ -187,6 +187,19 @@ body {
     padding: 10px;
 }
 
+/* Center items when only name or only price is present */
+.menu-item.centered-only {
+    text-align: center;
+    display: block;
+}
+
+.menu-item.centered-only .item-name,
+.menu-item.centered-only .item-price {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
 #logo {
     position: absolute;
     top: 10px;
@@ -259,8 +272,8 @@ body {
     object-fit: contain;
 }
 .category-title-wrapper .category-icon {
-    max-width: 340px;
-    max-height: 340px;
+    max-width: 380px;
+    max-height: 380px;
     border-radius: 14px;
    
     background: transparent;
