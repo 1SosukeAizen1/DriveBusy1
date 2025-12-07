@@ -1,0 +1,187 @@
+{
+    "drive1": {
+       
+        
+        "Chicken Fingers": [
+            {   
+                "name": "",
+                "desc": "Hand-breaded chicken tenders fried to golden perfection.",
+                "price": ""
+            },
+            {
+                "name": "1 Pc Finger",
+                "desc": "",
+                "price": "$3.49"
+            },
+            {
+                "name": "2 Pc Fingers",
+                "desc": "",
+                "price": "$4.99"
+            },
+            {
+                "name": "3 Pc Fingers",
+                "desc": "",
+                "price": "$6.99"
+            },
+            {
+                "name": "6 Pc Fingers",
+                "desc": "",
+                "price": "$12.99"
+            },
+            {
+                "name": "12 Pc Fingers",
+                "desc": "",
+                "price": "$20.99"
+            }
+        ],
+        
+        
+        "Dipping Sauces:": {
+            "type": "banner",
+            "text": "BBQ, Ranch, Buffalo, Busy Sauce",
+            "price": ""
+        },
+        "Loaded Fries": [
+            {
+                "name": "Buffalo Chicken ",
+                "desc": "",
+                "price": "$8.99"
+            },
+            {
+                "name": "Gyro cheese",
+                "desc": "",
+                "price": "$8.99"
+            }
+        ],
+        "Deluxe Crispy Chicken": [
+            {
+                "name": "",
+                "desc": "Golden fried chicken with lettuce, tomato, and busy sauce",
+                "price": "$6.99"
+            }
+        ],
+        "Gyros": [
+            {
+                "name": "Gyro Sandwich",
+                "desc": "",
+                "price": "$7.49"
+            },
+            {
+                "name": "Spicy Gyro",
+                "desc": "",
+                "price": "$7.99"
+            },
+            {
+                "name": "Chicken Gyro",
+                "desc": "",
+                "price": "$7.49"
+            }
+        ]
+    },
+    
+    "drive1/2": {
+        "Burgers": [
+           
+            {
+                "name": "Busy Burger",
+                "desc": "Cheese, Grilled onions and Busy Sauce",
+                "price": "$6.49"
+            },
+            {
+                "name": "Gyro Burger",
+                "desc": "Cheese, Gyro meat with lettuce, tomato, onions and tzatziki sauce",
+                "price": "$7.99"
+            },
+            {
+                "name": "Cheeseburger",
+                "desc": "",
+                "price": "$6.49"
+            },
+            {
+                "name": "Hamburger",
+                "desc": "",
+                "price": "$5.99"
+            }
+        ],
+        
+        "seasoned wings": [
+            {
+                "name": "2 Pc Wings",
+                "desc": "",
+                "price": "$2.49"
+            },
+            {
+                "name": "6 Pc Wings",
+                "desc": "",
+                "price": "$5.99"
+            },
+            {
+                "name": "10 Pc Wings",
+                "desc": "",
+                "price": "$9.29"
+            },
+            {
+                "name": "16 Pc Wings",
+                "desc": "",
+                "price": "$14.49"
+            }
+        ],
+        
+        
+        
+        
+        "Rice Bowls": [
+            
+            {
+                "name": "Gyro Bowl",
+                "desc": "",
+                "price": "$8.99"
+            },
+            {
+                "name": "Chicken Bowl",
+                "desc": "",
+                "price": "$8.99"
+            },
+            {
+                "name": "Combo Bowl",
+                "desc": "",
+                "price": "$9.49"
+            }
+        ],
+        
+        "Shakes": [
+            
+              
+            {
+                "name": "oreo shake",
+                "desc": "",
+                "price": ""
+            },
+            {
+                "name": "vanilla shake",
+                "desc": "",
+                "price": ""
+            },
+            {
+                "name": "chocolate shake",
+                "desc": "",
+                "price": ""
+            },
+            {
+                "name": "strawberry shake",
+                "desc": "",
+                "price": ""
+            },
+            {  "name": "",
+                "desc": "",
+                "price": "$4.99"
+            }
+        ],
+        "Pepsi Products": {
+            "type": "banner",
+            "text": "Pepsi Sodas",
+            "price": ""
+        }
+        
+    }
+}
